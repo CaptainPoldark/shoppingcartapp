@@ -192,7 +192,7 @@ const Products = (props) => {
     let newTotal = costs.reduce(reducer, 0);
     console.log(`total updated to ${newTotal}`);
 
-    //return newTotal;
+    return newTotal;
   };
   // TODO: implement the restockProducts function
   const restockProducts = (url) => {
